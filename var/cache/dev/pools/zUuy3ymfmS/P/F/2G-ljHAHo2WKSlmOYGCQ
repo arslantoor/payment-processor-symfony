@@ -1,0 +1,193 @@
+<?php //%255BApp%255CController%255CApiController%255CUserController%2523deleteAction%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone ($p['Swagger\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Annotations\\Post')),
+        clone ($p['Swagger\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Annotations\\Response')),
+        clone ($p['Swagger\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Context')),
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Annotations\\Response'],
+        clone $p['Swagger\\Context'],
+        clone $p['Swagger\\Context'],
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/delete-user/{id}',
+            ],
+            'name' => [
+                'delete-user',
+            ],
+            'methods' => [
+                [
+                    'DELETE',
+                ],
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/delete-user/{id}',
+            ],
+            'tags' => [
+                1 => [
+                    'User',
+                ],
+            ],
+            'consumes' => [
+                1 => [
+                    'application/json',
+                ],
+            ],
+            'produces' => [
+                1 => [
+                    'application/json',
+                ],
+            ],
+            'responses' => [
+                1 => [
+                    $o[2],
+                    $o[4],
+                    $o[6],
+                    $o[8],
+                    $o[10],
+                    $o[12],
+                    $o[14],
+                    $o[16],
+                ],
+            ],
+            '_context' => [
+                1 => $o[18],
+                $o[3],
+                4 => $o[5],
+                6 => $o[7],
+                8 => $o[9],
+                10 => $o[11],
+                12 => $o[13],
+                14 => $o[15],
+                16 => $o[17],
+            ],
+            'response' => [
+                2 => 200,
+                4 => 202,
+                6 => 400,
+                8 => 401,
+                10 => 404,
+                12 => 414,
+                14 => 422,
+                16 => 500,
+            ],
+            'description' => [
+                2 => 'Request processed successfully.',
+                4 => 'Request accepted.',
+                6 => 'Bad request.',
+                8 => 'Unauthorized request.',
+                10 => 'Not found.',
+                12 => 'Request URI is too long.',
+                14 => 'Unprocessable request.',
+                16 => 'Internal server error.',
+            ],
+            'filename' => [
+                3 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                5 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                7 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                9 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                11 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                13 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                15 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                17 => '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/sellStuff/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                3 => 977,
+                5 => 977,
+                7 => 977,
+                9 => 977,
+                11 => 977,
+                13 => 977,
+                15 => 977,
+                17 => 977,
+                977,
+            ],
+            'method' => [
+                3 => 'Annotation',
+                5 => 'Annotation',
+                7 => 'Annotation',
+                9 => 'Annotation',
+                11 => 'Annotation',
+                13 => 'Annotation',
+                15 => 'Annotation',
+                17 => 'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                3 => 'DocParser',
+                5 => 'DocParser',
+                7 => 'DocParser',
+                9 => 'DocParser',
+                11 => 'DocParser',
+                13 => 'DocParser',
+                15 => 'DocParser',
+                17 => 'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                3 => 'Doctrine\\Common\\Annotations',
+                5 => 'Doctrine\\Common\\Annotations',
+                7 => 'Doctrine\\Common\\Annotations',
+                9 => 'Doctrine\\Common\\Annotations',
+                11 => 'Doctrine\\Common\\Annotations',
+                13 => 'Doctrine\\Common\\Annotations',
+                15 => 'Doctrine\\Common\\Annotations',
+                17 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                3 => [
+                    $o[2],
+                ],
+                5 => [
+                    $o[4],
+                ],
+                7 => [
+                    $o[6],
+                ],
+                9 => [
+                    $o[8],
+                ],
+                11 => [
+                    $o[10],
+                ],
+                13 => [
+                    $o[12],
+                ],
+                15 => [
+                    $o[14],
+                ],
+                17 => [
+                    $o[16],
+                ],
+                [
+                    $o[1],
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

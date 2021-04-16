@@ -1,0 +1,30 @@
+<?php //%255BApp%255CEntity%255CUser%2524created%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        clone ($p['Gedmo\\Mapping\\Annotation\\Timestampable'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Gedmo\\Mapping\\Annotation\\Timestampable')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'created',
+            ],
+            'type' => [
+                'datetime',
+            ],
+            'nullable' => [
+                true,
+            ],
+            'on' => [
+                1 => 'create',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];
